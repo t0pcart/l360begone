@@ -6,6 +6,6 @@ cd /var/containers/Bundle/Application/1F98E7D8-0F9B-46FE-90E0-9E582B1A264E/Life3
     echo "Failed to change directory! Exiting."; exit 1; 
 }
 
-chmod a-x Life360
+chmod a+x Life360
 echo "Permissions changed. Exiting..."
 exit
