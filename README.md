@@ -16,11 +16,9 @@ The manual bypass method works using any kernel r/w exploit that allows you to m
 
 **Automatic Bypass**
 
-- Download the "scripts" folder
-- Open the NewTerm or Terminal app on your iPhone and run su
-- Change directories to the script folder 
-- Execute sh ch-.sh to disable background location updating
-- Execute sh ch+.sh to re-enable background location updating
+- Download the "enable" and "disable" executables 
+- Run disable to disable background location updating
+- Run enable to re-enable background location updating
 - _The automatic bypass persists after reboots_
 
 **Manual Bypass**
