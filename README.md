@@ -16,7 +16,8 @@ The manual bypass method works using any kernel r/w exploit that allows you to m
 
 **Automatic Bypass**
 
-- Download the "enable" and "disable" executables 
+- Download the "enable" and "disable" executables
+- Use chmod +x to give the executable proper permissions
 - Run disable to disable background location updating
 - Run enable to re-enable background location updating
 - _The automatic bypass persists after reboots_
