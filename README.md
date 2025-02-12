@@ -4,9 +4,9 @@ Bypass that disables Life360's background location refresh on iOS;prevents locat
 
 Circle Members will not get any location updates/notifications when this bypass is used.
 
-This bypass manipulates executable flags, _set and used by the kernel and AMFI to vaildate binaries' permissions_, allowing us to mark the Life360 binary as non-executable
+This bypass manipulates executable flags, _set and used by the kernel and AMFI to vaildate binaries' permissions_, allowing us to mark the Life360 binary as non-executable. Binaries marked with a non-executable flag will be rejected by AMFI and the kernel will refuse to run those binaries. By preventing the execution of any Life360 binary/library, background location updates are defeated
 
-Binaries marked with a non-executable flag will be rejected by AMFI and the kernel will refuse to run those binaries. By preventing the execution of any Life360 binary/library, background location updates are defeated
+if there is any issues with the automatic method make a pull request 
 
 # Bypass Types
 
