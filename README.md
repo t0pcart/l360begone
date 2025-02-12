@@ -36,11 +36,12 @@ The manual bypass method requires a kernel exploit that allows arbitrary reading
 - **Note:** This does not kill the actively running Life360 binary, you need to kill the binary using another method(killall, kill, CocoaTop)
 - _The semi-automatic bypass method persists after reboots_
 
-**Manual Bypass**
+**Manual Bypass Method**
 
 Build an iOS app with any iOS kernel r/w exploit then:
 
 - Use the exploit to get root
 - Add/Remove the binary's executable flag(Adding enables background refresh, removing disables)
-- Kills the active Life360 process 
+- Kills the active Life360 process
+- _The manual bypass method persists after reboots_
   
