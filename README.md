@@ -20,6 +20,8 @@ The manual bypass method requires a kernel exploit that allows arbitrarily readi
 
 **Automatic Bypass Method**
 
+IN BETA
+
 - Download the "enable" and "disable" executables
 - Use chmod +x as root to give the executables proper permissions
 - Run disable to disable background location updating
@@ -45,4 +47,11 @@ Build an iOS app with any iOS kernel r/w exploit then:
 - Add/Remove the binary's executable flag(Adding enables background refresh, removing disables)
 - Kills the active Life360 process
 - _The manual bypass method persists after reboots_
+
+
+the automatic bypass is in beta but the semi should work just fine 
+
+i made the manual bypass mini mini tutorial so someone can make this work on iOS 17+(we dont have a public kernel exploit as of writing)
+
+
   
