@@ -16,7 +16,8 @@ The automatic bypass method requires a proper bootstrap/terminal to be executed.
 
 The semi-automatic bypass method requires Filza(with root) to be installed on the iPhone
 
-The manual bypass method requires a kernel exploit that allows arbitrary reading/writing to kernel memory
+The manual bypass method requires a kernel exploit that allows arbitrarily reading and writing to kernel memory
+
 **Automatic Bypass Method**
 
 - Download the "enable" and "disable" executables
