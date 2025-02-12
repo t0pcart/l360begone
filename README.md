@@ -30,5 +30,5 @@ The semi-automatic bypass method requires Filza to be installed on the iPhone wi
 - Find the Life360 executable(has gear icon) and click the i Button
 - Go to Access Permissions and remove the executable flag from the owner, group, and others id's(disables life360)
 - Add the executable permissions back(re-enables life360)
-- **Note:** This does not kill the actively running Life360 binary you must kill it.
+- **Note:** This does not kill the actively running Life360 binary you must kill it
 - _The semi-automatic bypass method persists after reboots_
