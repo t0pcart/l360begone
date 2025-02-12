@@ -12,9 +12,9 @@ Binaries marked with a non-executable flag will be rejected by AMFI and the kern
 
 The automatic bypass method requires a proper bootstrap/terminal to be executed. Installing those can be done via a jailbreak [(Dopamine)](https://github.com/opa334/Dopamine), or using an app installed via a CoreTrust bypass [(Bootstrap)](https://github.com/RootHide/Bootstrap).
 
-The manual bypass method works using any kernel r/w exploit that allows you to manipulate userspace's processes' page flags
+The semi-automatic bypass method requires Filza to be installed on the iPhone with root privileges
 
-**Automatic Bypass**
+**Automatic Bypass Method**
 
 - Download the "enable" and "disable" executables
 - Use chmod +x as root to give the executables proper permissions
@@ -22,12 +22,13 @@ The manual bypass method works using any kernel r/w exploit that allows you to m
 - Run enable to re-enable background location updating
 - _The automatic bypass persists after reboots_
 
-**Manual Bypass**
-- Use a kernel r/w exploit to obtain userspace memory page read/write privileges
-- Manipulate Life360's binary's executable flag(in memory) to mark it non-executable(disabling)
-- Manipulate Life360's binary's executable flag(in memory) to mark it executable(enabling)
--  _The manual bypass can persist after reboots_
 
+**Semi-Automatic Bypass Method**
 
-  
-
+- Open Filza
+- Go to /var/containers/Bundle/Application/"YourLife360AppFolder"/Life360.app
+- Find the Life360 executable(has gear icon) and click the i Button
+- Go to Access Permissions and remove the executable flag from the owner, group, and others id's(disables life360)
+- Add the executable permissions back(re-enables life360)
+- **Note:** This does not kill the actively running Life360 binary you must kill it.
+- _The semi-automatic bypass method persists after reboots_
