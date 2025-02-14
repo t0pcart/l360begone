@@ -12,6 +12,8 @@ if there is any issues with the automatic method make a pull request
 
 There are 3 methods that can be used to bypass Life360 and their requirements are listed.
 
+**Note: these modifications are made on disk. not in memory, and thus will persist between reboots**
+
 The automatic bypass method requires a proper bootstrap/terminal to be executed. Installing those can be done via a jailbreak [(Dopamine)](https://github.com/opa334/Dopamine), or using an app installed via a CoreTrust bypass [(Bootstrap)](https://github.com/RootHide/Bootstrap).
 
 The semi-automatic bypass method requires Filza(with root) to be installed on the iPhone
@@ -26,7 +28,7 @@ IN BETA
 - Use chmod +x as root to give the executables proper permissions
 - Run disable to disable background location updating
 - Run enable to re-enable background location updating
-- _The automatic bypass persists after reboots_
+
 
 
 **Semi-Automatic Bypass Method**
@@ -37,7 +39,7 @@ IN BETA
 - Go to Access Permissions and remove the executable flag from the owner, group, and others id's(disables life360)
 - Add the executable permissions back(re-enables life360)
 - **Note:** This does not kill the actively running Life360 binary, you need to kill the binary using another method(killall, kill, CocoaTop)
-- _The semi-automatic bypass method persists after reboots_
+
 
 **Manual Bypass Method**
 
@@ -46,7 +48,7 @@ Build an iOS app with any iOS kernel r/w exploit then:
 - Use the exploit to get root
 - Add/Remove the binary's executable flag(Adding enables background refresh, removing disables)
 - Kills the active Life360 process
-- _The manual bypass method persists after reboots_
+
 
 
 the automatic bypass is in beta but the semi should work just fine 
